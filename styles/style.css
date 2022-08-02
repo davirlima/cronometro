@@ -52,3 +52,12 @@ body {
   background-color: #56f900;
   color: #000;
 }
+
+@media screen and (max-width: 480px) {
+  .container h1 {
+    font-size: 6rem;
+  }
+  .buttonsContainer button {
+    font-size: 1.2rem;
+  }
+}
