@@ -6,15 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cronometro</title>
     <link rel="stylesheet" href="styles/style.css" />
+    <script src="js/timer.js"></script>
   </head>
   <body>
     <main>
       <div class="container">
-        <h1>0:00:00</h1>
+        <h1 id="output">
+          <span id="hour">0</span>:<span id="minute">00</span>:<span id="second"
+            >00</span
+          >
+        </h1>
         <div class="buttonsContainer">
-          <button>Começar</button>
-          <button>Pausar</button>
-          <button>Parar</button>
+          <button onClick="start()">Começar</button>
+          <button id="pauseButton" onClick="pause()">Pausar</button>
+          <button onClick="stop()">Parar</button>
         </div>
       </div>
     </main>
