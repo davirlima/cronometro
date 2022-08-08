@@ -42,18 +42,13 @@ function start() {
 
 function pause() {
   if (alreadyPlay == true) {
-    if (document.getElementById("pauseButton").innerText == "Pausar") {
-      document.getElementById("pauseButton").innerText = "Play";
-      clearInterval(interval);
-    } else {
-      interval = setInterval(timer, 1000);
-      document.getElementById("pauseButton").innerText = "Pausar";
-    }
+    clearInterval(interval);
+    alreadyPlay = false;
   }
 }
 
 function stop() {
-  clearInterval(interval);
+  pause();
   document.getElementById("hour").innerText = "0";
   document.getElementById("minute").innerText = "00";
   document.getElementById("second").innerText = "00";
@@ -61,5 +56,4 @@ function stop() {
   second = 0;
   minute = 0;
   hour = 0;
-  alreadyPlay = false;
 }
