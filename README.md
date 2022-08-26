@@ -1,9 +1,16 @@
+<div align="center">
+
 # Cronômetro
 
-Está é uma aplicação web de um cronômetro básico, com as funções *Start*, *Pause* e *Reset*
+Simples cronômetro em JavaScript, utilizando a função `setInterval()`.
 
-## Tecnologias:
-<div style=display: inline-block>
+&#127775; **Acesse-a no link:** <https://davirlima.github.io/cronometro/> &#127775;
+
+</div>
+
+<h2>	&#9881; Tecnologias: </h2>
+
+<div>
   <img
       height="50px"
       src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
@@ -21,11 +28,14 @@ Está é uma aplicação web de um cronômetro básico, com as funções *Start*
   />
 </div>
 
-## Interface:
-<img
-  src="https://user-images.githubusercontent.com/97968740/185645494-8488ad79-dd61-4160-81cc-fe3216ec844f.png"
-  alt="Interfaca da Aplicação Cronômetro"
-/>
+<h2> &#128437; Interfaces: </h2>
 
-## Acesse a aplicação:
-<https://davirlima.github.io/cronometro/>
+<div align="center">
+  <img
+    src="https://user-images.githubusercontent.com/97968740/186834813-505056b1-afac-453d-a10c-962dcb1cd045.png"
+    alt="Interface da aplicação 'cronômetro' em computador"
+    width=100%
+    border="1px solid white"
+  />
+</div>
+
